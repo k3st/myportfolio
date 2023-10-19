@@ -12801,3 +12801,71 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+.hero-carousel {
+  width: 100%;
+  /* Set the desired width for the carousel */
+  height: 500px;
+  /* Set a fixed height for the carousel */
+  overflow: hidden;
+  /* Hide the overflow to ensure consistent height */
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    padding: 10px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+}
