@@ -12848,10 +12848,11 @@ pre .code {
 }
 
 .hero-image {
-  flex: 1;
+  flex: 2;
+  max-height: 420px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1258px) {
   .hero {
     flex-direction: column;
     text-align: center;
@@ -12868,4 +12869,5 @@ pre .code {
   .hero-description {
     font-size: 16px;
   }
+
 }
